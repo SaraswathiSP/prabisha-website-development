@@ -152,6 +152,10 @@ export const ImageA = styled.img`
 width:80%;
 height:auto;
 border-radius:25px;
+transition: transform 0.25s ease-out;
+&:hover{
+    transform: scale(1.05);
+}
 @media screen and (max-width:768px) {
     width:85%;
 }
@@ -256,6 +260,10 @@ export const Image = styled.img`
 width:60%;
 height:auto;
 border-radius:25px;
+transition: transform 0.25s ease-out;
+&:hover{
+    transform: scale(1.05);
+}
 @media screen and (max-width:768px){
     width:100%;
 }
