@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {AiOutlineMail} from 'react-icons/ai'
-import {FaLocationArrow} from 'react-icons/fa'
+
 
 import {FaBars} from 'react-icons/fa'
 
@@ -69,10 +69,11 @@ margin-top:70px;
 }
 `
 
-export const ContactHeading = styled.h1`
+export const Heading = styled.h1`
     color: #fff;
     font-family: "Raleway",Sans-serif;
     font-size: 45px;
+    text-align: center;
     font-weight: 300;
     text-transform: uppercase;
     line-height:1.3;
@@ -84,242 +85,203 @@ export const ContactHeading = styled.h1`
 
 export const Section2M = styled.div`
 height:40%;
-background-image:url("https://www.prabisha.co.uk/wp-content/uploads/2022/10/6-PC-UK-Website-Banner-CONTACT-scaled.jpg");
+background-color:#D5D1F678;
 display:flex;
+flex-direction:column;
 justify-content: center;
 align-items:center;
-padding:70px;
+padding:100px 0px;
 max-width:100%;
 @media screen and (max-width:768px){
     min-height:50%;
-    padding:10px;
+    padding:50px 10px 50px 10px;
 }
 `
-
-
-export const Section21M = styled.div`
-display:flex;
-@media screen and (max-width:768px){
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-`
-export const Section21M1 = styled.div`
+export const Section2MInfo1Container = styled.div`
 display:flex;
 flex-direction:column;
-padding:10px;
-width:32%;
-@media screen and (max-width:768px){
-    width:100%;
-}
-`
-
-export const Section21M1Info = styled.h2`
-color: #000000;
-    font-family: "Raleway", Sans-serif;
-    font-size: 31px;
-    font-weight: 400;
-}
-`
-export const AnchorTag = styled.a`
-display:flex;
-text-decoration:none;`
-
-export const Section21M1Button = styled.button`
-background-color:#0B034F;
-border-radius:5px;
-color:#FFFFFF;
-font-size:15px;
-font-family:"Raleway sans-serif";
-height:45px;
-width:160px;
-border:none;
-`
-
-export const Section21M2 = styled.div`
-width:35%;
-margin:15px;
-display:flex;
 justify-content:center;
 align-items:center;
-@media screen and (max-width:768px) {
-    width:100%;
-}
-`
-export const ImageA = styled.img`
-width:80%;
-height:auto;
-border-radius:25px;
-transition: transform 0.25s ease-out;
-&:hover{
-    transform: scale(1.05);
-}
-@media screen and (max-width:768px) {
-    width:85%;
-}
-`
-export const Section21M3 = styled.div`
-width:30%;
-display:flex;
-flex-direction:column;
-align-items:flex-start;
-height:250px;
-margin-top:20px;
-padding: 45px 45px 0px 45px;
-background-color:#0B034F;
-@media screen and (max-width:768px) {
-    width:70%;
-    height:200px;
-}
 `
 
-export const ReachUs = styled.h6`
-color:#F6F6F6;
-font:family:'Raleway' , sans-serif;
-line-height:1;
-font-size:23px;
-margin:0 0 0 11px;`
-
-
-export const IconContainer = styled.div`
-background-color:#C99B3B;
-height:35px;
-margin-right:10px;
-width:35px;
-display:flex;
-justify-content:center;
-align-items:center;
-border-radius:50px;`
-
-export const Phone = styled(BsFillTelephoneFill)`
-color: #fff;
-font-weight:900;
-&:hover{
-    color:#54595f;
+export const Section2MInfo1 = styled.h2`
+color:#362E68;
+text-align : center;
+font-size:33px;
+font-family:Raleway,sans-serif;
+@media screen and (max-width: 768px){
+    font-size:16px;
+    text-align : center;
 }
 `
-
-export const Mail = styled(AiOutlineMail)`
-color: #fff;
-font-weight:900;
-&:hover{
-    color:#54595f;
-}
-`
-export const Location = styled(FaLocationArrow)`
-color: #fff;
-font-weight:900;
-&:hover{
-    color:#54595f;
-}
-`
-
-export const Text = styled.h4`
-color:#fff;
+export const Section2MInfo2 = styled.p`
+color:#000000;
 font-size:16px;
-&:hover {
-    color:#fcb900;
-}
+font-family:Raleway,sans-serif;
+margin : 0px 0px 28px;
 `
+export const Section2MInfo3 = styled.h2`
+text-align : center;
+font-size:22px;
+font-family:Raleway,sans-serif;
+`
+export const Section2MInfo3Span1 = styled.span`
+color:#362e68;
+`
+export const Section2MInfo3Span2 = styled.span`
+color:#c99b3b;
+`
+export const Section2MInfo4 = styled.p`
+color:#000000;
+font-size:16px;
+font-family:Raleway,sans-serif;
 
-
+margin-bottom: 1.75em;
+line-height:2;
+`
 export const Section21M31 =styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
-
 `
 
+
+
+
+
 export const Section3M = styled.div`
-background-color:#D5D1F678;
+background-color:#ffffff;
 display:flex;
+flex-direction:column;
 justify-content:center;
 align-items:center;
 padding:100px;
 max-width:100%;
 max-height:100%;
 @media screen and (max-width:768px){
-    padding:10px;
+    padding:80px 20px 80px 20px;
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
 }
 `
 
-export const Section31M = styled.div`
-width:50%;
-margin:auto;
-@media screen and (max-width:768px) {
-    width:100%;
-}
-`
-export const Image = styled.img`
-width:60%;
-height:auto;
-border-radius:25px;
-transition: transform 0.25s ease-out;
-&:hover{
-    transform: scale(1.05);
-}
-@media screen and (max-width:768px){
-    width:100%;
-}
-`
 
+export const Section31M = styled.div`
+display: flex;
+justify-content:center;
+align-items:flex-start;
+@media screen and (max-width: 768px) {
+    flex-direction:column;
+}
+`
 
 export const Section32M = styled.div`
 width:50%;
-@media screen and (max-width:768px){
-    width:100%;
+display:flex;
+flex-direction:column;
+margin-right:20px;
+line-height:2;
+font-weight:light;
+@media screen and (max-width: 768px) {
+width:100%;
+}
+`
+
+export const QueryInfo = styled.h2`
+color:#362E68;
+font-size:18px;
+font-family:Raleway, sans-serif;
+`
+export const ContactInfo = styled.div`
+display:flex;
+@media screen and (max-width: 768px) {
+    display:flex;
+    flex-direction:column;
 }
 
 `
-export const Text1 = styled.h6`
-color: #C99B3B;
-font-family: "Raleway", Sans-serif;
-font-size:20px;
-font-weight: 300;
-`
-export const Text2 = styled.h2`
-color: #0C0345;
-font-family: "Raleway", Sans-serif;
-font-size: 31px;
-font-weight: 400;
+export const ContactInfo1 = styled.div`
+display:flex;
+margin-right:30px;
+justify-content:center;
+align-items:center;
+&:hover{
+    color:#362E68;
+}
+@media screen and (max-width: 768px) {
+    justify-content:flex-start;
+    margin:10px;
+    margin-top:0px !important;
+}`
+
+export const Phone = styled(BsFillTelephoneFill)`
+color: #c99b3b;
+font-weight:900;
+&:hover{
+    color:#362E68;
+}
 `
 
+export const Mail = styled(AiOutlineMail)`
+color: #c99b3b;
+font-weight:900;
+&:hover{
+    color:#362E68;
+}
+`
+export const Text = styled.h4`
+color:#c99b3b;
+font-size:16px;
+padding-left:5px;
+&:hover {
+    color:#362E68;
+}
+`
 
+export const Section31M1 = styled.div`
+width:40%;
+height:400px;
+background-color:#0b034f;
+justify-content:center;
+align-items:center;
+@media screen and (max-width: 768px) {
+    width:100%;
+}
+`
 export const ContactForm = styled.div`
-width:100%;
 display:flex;
 flex-direction:column;
-align-items:flex-start;
-justify-content:flex-start;
+align-items:center;
+padding: 30px 65px;
+@media screen and (max-width: 768px) {
+    justify-content:flex-start;
+    padding:5px
+}
 `
+
 export const Input = styled.input`
 margin:10px;
 padding:12px;
 background:#fafafa;
 border:none;
-width:100%;
+width:60%;
 @media screen and (max-width:768px){
-    width:80%;
+    min-width:80%;
 }
 `
 
 export const Select = styled.select`
-width:100%;
+width:68%;
 font-size:14px;
 font-family:Raleway,sans-serif;
 margin-bottom:24px;
 height:42px;
 border:none;
-margin-left:10px;
 cursor:pointer;
 @media screen and (max-width:768px){
-    width:87%;
+    min-width:87%;
 }`
 
 export const Option = styled.option`
@@ -330,49 +292,46 @@ font-size:14px;
 }`
 
 export const Button = styled.button`
-width:120px;
+min-width:120px;
 background-color:#C99B3B;
 color:#ffffff;
 font-size:15px;
+display:flex;
+
 border-radius:15px;
 padding:16px 32px;
 font-family:Raleway,sans-serif;
 border:none;
 `
+
 export const Section4M = styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
 padding:20px 0px 20px 0px;
-background-color: #0B034F;
-max-width:100%;
-min-height:350px;
+background-color: #D5D1F678;
+height:50vh;
 margin-bottom:20px;
 @media screen and (max-width:768px){
+    padding:80px 20px 80px 20px;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    min-height:50vh;
 }
 `
 export const Section41M = styled.div`
 display:flex;
 flex-direction:column;
+width:40%;
 justify-content:flex-start;
 align-items:flex-start;
-margin-top:-30px;
+
 @media screen and (max-width:768px){
     width:100%;
+    order:1
 }
 `
-export const Branch = styled.h6`
-color: #FFFFFF;
-    font-family: "Raleway", Sans-serif;
-    font-size: 23px;
-    font-weight: 300;
-    margin-left:20px;
-    
-`
-
 export const Span = styled.span`
 color:#C99B3B;
 font-weight: 700;
@@ -382,88 +341,70 @@ margin-top:-30px;
 export const Section41M1 = styled.div`
 display:flex;
 flex-direction:column;
-justify-content:flex-start;
-align-items:flex-start;
-margin-top:-40px;
-
 `
 export const Section42M = styled.div`
 margin:10px;
 width:40%;
+height:100%;
 @media screen and (max-width:768px){
     width:100%;
 }
 `
-export const Image1 = styled.img`
+
+export const Image = styled.img`
 width:100%;
-height:275px;
+height:350px;
+border-bottom-right-radius:50px;
+
+
 @media screen and (max-width:768px){
     height:auto;
 }
 `
 
-export const Section43M = styled.div`
-cursor:	(https://maps.gstatic.com/mapfiles/openhand_8_8.cur),default;
-width:30%;
-
+export const Section5M = styled.div`
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:50px;
+background-color: #ffffff;
+max-width:100%;
+height:70vh;
 @media screen and (max-width:768px){
-    width:100%;
-}`
-
-export const Iframe = styled.iframe`
-width:100%;
-height:275px;
-@media screen and (max-width:768px){
-    height:350px;
+    padding:80px 20px 80px 20px;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    min-height:70vh;
+   
 }
 `
-export const Section5M = styled.div`
+
+
+ export const Section6M = styled.div`
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ height:100vh;
+ @media screen and (max-width: 768px) {
+    padding:50px 20px 50px 20px;
+ min-height:200vh;
+ }
+ `
+export const RecentWorkSection = styled.div`
 display:flex;
 justify-content:center;
 align-items:center;
-padding:20px 0px 20px 0px;
-background-color: #0B034F;
-max-width:100%;
-min-height:350px;
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
     flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    min-height:500px;
-    padding:0;
 }
-`
 
-export const Section51M = styled.div`
-margin:10px;
-width:30%;
-@media screen and (max-width:768px){
-    width:100%;
-    order:3;
-}`
-
-export const Section52M = styled.div`
-margin:10px;
-width:30%;
-@media screen and (max-width:768px){
-    width:100%;
-}
 `
-
-export const Section53M = styled.div`
-display:flex;
-flex-direction: column;
-justify-content:center;
-align-items:flex-start;
-margin-top:-120px;
-@media screen and (max-width:768px){
-    width:100%;
-    margin-top:10px;
-}
-`
-export const Image2 = styled.img`
-width:100%;
-height:275px;
-@media screen and (max-width:768px){
-    height:auto;
-}`
+ export const Section6M1 = styled.div`
+ width:100%;
+ `
+ export const Section6MImage = styled.img`
+ width:100%;
+ `

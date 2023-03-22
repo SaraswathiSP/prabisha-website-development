@@ -1,9 +1,9 @@
 import {MobileSectionNavbar,Logo,Section2logo,FaBarsIcon ,Section1,Section2NavItems,NavItem, Section12
-    ,ContactHeading,HeadingContainer,Section2M,Section21M,Section21M1,Section21M1Info,
-    Section21M1Button,Section21M2,IconContainer,Section21M3,ReachUs,Text,Section21M31,
-    Section3M,Section31M,Section32M,Image,ContactForm,Input,Select,Option,Button,Text1,Text2,
-Section4M,Section41M,Section41M1,Section42M,Image1,Section43M,Iframe,Phone,Mail,Span,Branch,Location,
-Section5M ,Section51M,Section52M,Image2,Section53M,AnchorTag,ImageA} from './ContactSectionStyledComponents'
+    ,Heading,HeadingContainer,Section2M,Section2MInfo1Container,
+    Section2MInfo1,Section2MInfo2,Section2MInfo3,Section2MInfo4,Section2MInfo3Span1,Section2MInfo3Span2,Text,
+    Section3M,ContactInfo,ContactInfo1,QueryInfo,Section31M,Section32M,Section31M1,ContactForm,Input,Select,Option,Button,
+Section4M,Section41M,Section42M,Image,Phone,Mail,
+Section5M,Section6M,Section6M1,RecentWorkSection,Section6MImage} from './ContactSectionStyledComponents'
 
 
 
@@ -33,45 +33,56 @@ const ContactSection = () => {
         </Section2NavItems>
         </Section12>
         <HeadingContainer>
-        <ContactHeading>CONTACT</ContactHeading>
+        <Heading>WEBSITE DEVELOPMENT & DESIGN</Heading>
         </HeadingContainer>
         </Section1>
         <Section2M>
-            <Section21M>
-                <Section21M1>
-                    <Section21M1Info>Schedule a free 3o<br/> minutes discovery call</Section21M1Info>
-                    <AnchorTag href="https://calendly.com/prabishadev/30min">
-                    <Section21M1Button>VIDEO CALL</Section21M1Button>
-                    </AnchorTag>      
-                </Section21M1>
-                <Section21M2>
-                    <ImageA src="https://www.prabisha.co.uk/wp-content/uploads/2022/09/websie-small-image.jpg" alt=""/>
-                </Section21M2>
-                <Section21M3>
-                    <ReachUs><Span>__  </Span>Reach Us At</ReachUs>
-                    <Section21M31>
-                    <IconContainer>
-                    <Phone/>
-                    </IconContainer>
-                    <Text>+44(0)7867090363</Text>
-                    </Section21M31>
-                    <Section21M31>
-                        <IconContainer>
-                        <Mail/>
-                        </IconContainer>
-                        <Text>care@prabisha.co.uk</Text>
-                    </Section21M31>
-                </Section21M3>
-            </Section21M>
+            <Section2MInfo1Container>
+                <Section2MInfo1>
+                Bespoke &amp; Professional Website Development &amp; Design
+                </Section2MInfo1>
+                <Section2MInfo2>
+                Bring digitalisation to your service &amp; social proof to 
+                your customers! Get the premium quality &amp; engaging copy
+                 of websites with a touch of modern &amp; latest technology.
+                </Section2MInfo2>
+            </Section2MInfo1Container>
+            <Section2MInfo1Container>
+                <Section2MInfo3>
+                <Section2MInfo3Span1>Solid Navigation </Section2MInfo3Span1>| <Section2MInfo3Span2>Responsive Design </Section2MInfo3Span2>|<Section2MInfo3Span1> Attractive Visual | </Section2MInfo3Span1> <Section2MInfo3Span2>Engaging Copy</Section2MInfo3Span2>
+                
+                </Section2MInfo3>
+                <Section2MInfo4>
+                Give your business a new height of success, growth &amp; visibility with professional web development services. We’re specialised in developing &amp; designing websites with cutting-edge technology. Understanding the present flow of marketing, Prabisha Consulting is able to add a 360-degree transformation to your brand by developing eye-catchy &amp; user-friendly websites.
+                </Section2MInfo4>
+            </Section2MInfo1Container>
+            
             
         </Section2M>
         <Section3M>
+        <Section2MInfo1>
+            We are the leading website development company in London
+                </Section2MInfo1>
             <Section31M>
-                <Image src="https://www.prabisha.co.uk/wp-content/uploads/2022/09/mobile-phone.jpg" alt="mobile-image"/>
-            </Section31M>
-            <Section32M>
-                <Text1>Get In Touch</Text1>
-                <Text2>Any Questions?<br/>Reach out to us now!</Text2>
+                <Section32M>
+            <Section2MInfo4>
+            One well-structured website can speak for your brand. In this digital world, websites can open an online gateway for your business. Nowadays, people have become online-savvy &amp; preferred to research brands’ specialities, offers, services &amp; even compare them with others before buying or taking the foremost step. This is how they are able to get the most reliable &amp; profitable products for their niche. You can easily attract your targeted customers with a website that describes your business &amp; services. Websites are not only able to educate your clients about brand &amp; service but also provide online visibility and social proof. The benefits of having a website mean you are ahead of your competitors in making sales, conversions &amp; leads. The organic growth of the website in search engines also gives you a loyal customer base who would have a high chance to enter your sales funnel.&nbsp;
+                </Section2MInfo4>
+                <QueryInfo>
+                    Do you have any query? Please feel free to reach us
+                </QueryInfo>
+                <ContactInfo>
+                    <ContactInfo1>
+                    <Phone/>
+                    <Text><sup>+</sup>44(0)7867090363</Text>
+                    </ContactInfo1>
+                    <ContactInfo1>
+                    <Mail/>
+                        <Text>care@prabisha.co.uk</Text>
+                    </ContactInfo1>
+                </ContactInfo>
+                </Section32M>
+                <Section31M1>
                 <ContactForm type="submit">
                     <Input type="text" placeholder="Name"/>
                     <Input type="email" placeholder="Email"/>
@@ -84,70 +95,51 @@ const ContactSection = () => {
                     </Select>
                     <Button>SUBMIT</Button>
                 </ContactForm>
-            </Section32M>
+                </Section31M1>
+            </Section31M>
         </Section3M>
+
         <Section4M>
             <Section41M>
-            <Branch><Span>-</Span>UK Office</Branch>
-                <Section41M1>
-                <Section21M31>
-                    <IconContainer>
-                    <Phone/>
-                    </IconContainer>
-                    <Text><sup>+</sup>44(0)7867090363</Text>
-                    </Section21M31>
-                    <Section21M31>
-                        <IconContainer>
-                        <Mail/>
-                        </IconContainer>
-                        <Text>care@prabisha.co.uk</Text>
-                    </Section21M31>
-                    <Section21M31>
-                        <IconContainer>
-                        <Location/>
-                        </IconContainer>
-                        <Text>71-75 Shelton st., Covent Garden,<br/> London,UK</Text>
-                    </Section21M31>
-                </Section41M1>
+            <Section2MInfo2>At Prabisha Consulting, we understand that your website is often the first interaction the 
+                potential customers have with your brand. Therefore, our web development services focus on creating an 
+                attractive and user-friendly website that will make a great first impression and help you achieve your 
+                business goals. Our team of experienced developers and designers combines modern web technologies with 
+                innovative marketing approaches to create a visually appealing website that’s easy to navigate.</Section2MInfo2>  
+            <Button>CONTACT US</Button>
             </Section41M>
             <Section42M>
-                <Image1 src="https://www.prabisha.co.uk/wp-content/uploads/2022/09/london-city.jpg" alt="city"/>
+                <Image src="https://www.prabisha.co.uk/wp-content/uploads/2022/12/website-design.jpg" alt="webiste design" />
             </Section42M>
-            <Section43M>
-            <Iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.907904295127!2d-0.1257350843639308!3d51.514905579636384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ccaaa0b0b7%3A0xbe144a0754857ae1!2s71-75%20Shelton%20St%2C%20London%20WC2H%209JQ%2C%20UK!5e0!3m2!1sen!2sus!4v1679034738375!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></Iframe>
-            </Section43M>
         </Section4M>
         <Section5M>
-            <Section51M>
-                <Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56067.26149271849!2d77.153891!3d28.563641!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dac25deb0ad%3A0xd4b356901653e060!2sD4%20St%2C%20Block%20D%2C%20Vasant%20Vihar%2C%20New%20Delhi%2C%20Delhi%20110057%2C%20India!5e0!3m2!1sen!2sus!4v1679044505566!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></Iframe>
-            </Section51M>
-            <Section52M>
-                <Image2 src="https://www.prabisha.co.uk/wp-content/uploads/2022/09/india-gate-i-day-2022-1.jpg" alt=""/>
-            </Section52M>
-            <Section53M>
-            <Branch><Span>__ </Span>india Office</Branch>
-            <Section41M1>
-                <Section21M31>
-                    <IconContainer>
-                    <Phone/>
-                    </IconContainer>
-                    <Text><sup>+</sup>9<sup>1 9599 8264 600</sup></Text>
-                    </Section21M31>
-                    <Section21M31>
-                        <IconContainer>
-                        <Mail/>
-                        </IconContainer>
-                        <Text>info@prabisha.com</Text>
-                    </Section21M31>
-                    <Section21M31>
-                        <IconContainer>
-                        <Location/>
-                        </IconContainer>
-                        <Text>D<sub>4/4029,</sub>Vasant Kunj New Delhi - 110070</Text>
-                    </Section21M31>
-                </Section41M1>
-            </Section53M>
-            </Section5M>        
+        <Section2MInfo1>
+          As an experienced Web design agency in UK, we help Startups/SMEs to grow with modern technology.
+                </Section2MInfo1>
+                <Section2MInfo4>
+                Your website is the first step of many in the customer service journey. If your website makes an excellent first impression, your audience will likely continue engaging with your brand. You can make your website more inviting by keeping the design modern and bright. This will give visitors the impression that you are open to new people.
+                </Section2MInfo4>
+                <Section2MInfo4>
+                Build an effective &amp; trustable relationship with your customers with interactive websites. It would be best to consider what your targeted customers are looking for in your brand. Customers devote their research looking for professional, credible, user-friendly &amp; quality products. If you have these four perfectly embedded into your website, then BOOM! You will be able to witness the drastic traffic, sales, and leads on your high-quality website. If you are looking for web design agencies in London, get in touch with us, our dedicated web developers can give you a full consultation on web technology, development &amp; design, and why it’s crucial for every business.
+                </Section2MInfo4>
+           
+            </Section5M>   
+            <Section6M>
+            <Section2MInfo1>
+                Our Recent Work
+            </Section2MInfo1>
+            <RecentWorkSection>
+                <Section6M1>
+                    <Section6MImage src="https://www.prabisha.co.uk/wp-content/uploads/2022/11/shubhfinal-uk.jpg" alt=""/>
+                </Section6M1>
+                <Section6M1>
+                    <Section6MImage src="https://www.prabisha.co.uk/wp-content/uploads/2022/11/hashtag-final.jpg" alt=""/>
+                </Section6M1>
+                <Section6M1>
+                    <Section6MImage src="https://www.prabisha.co.uk/wp-content/uploads/2022/11/gogopala-go-final-okay.jpg" alt=""/>
+                </Section6M1>
+                </RecentWorkSection>
+                </Section6M>     
             </>
     )
 }
