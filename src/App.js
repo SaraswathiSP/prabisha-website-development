@@ -1,7 +1,7 @@
 import './App.css'
-import ContactSection1 from './components/ContactSection';
+import WebsiteDevelopmentSection from './components/WebsiteDevelopmentSection';
 
-const App = () => <ContactSection1/>
+const App = () => <WebsiteDevelopmentSection/>
   
 
 export default App;

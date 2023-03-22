@@ -3,12 +3,12 @@ import {MobileSectionNavbar,Logo,Section2logo,FaBarsIcon ,Section1,Section2NavIt
     Section2MInfo1,Section2MInfo2,Section2MInfo3,Section2MInfo4,Section2MInfo3Span1,Section2MInfo3Span2,Text,
     Section3M,ContactInfo,ContactInfo1,QueryInfo,Section31M,Section32M,Section31M1,ContactForm,Input,Select,Option,Button,
 Section4M,Section41M,Section42M,Image,Phone,Mail,
-Section5M,Section6M,Section6M1,RecentWorkSection,Section6MImage} from './ContactSectionStyledComponents'
+Section5M,Section6M,Section6M1,RecentWorkSection,Section6MImage} from './WebsiteDevelopmentSectionStyledComponents'
 
 
 
 
-const ContactSection = () => {
+const WebsiteDevelopmentSection = () => {
     return (
         <>
         <Section1>
@@ -144,4 +144,4 @@ const ContactSection = () => {
     )
 }
 
-export default ContactSection
+export default WebsiteDevelopmentSection
